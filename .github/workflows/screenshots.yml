@@ -1,0 +1,40 @@
+name: Update screenshots
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/screenshots.py
+      - .github/workflows/screenshots.yml
+
+permissions:
+  contents: write
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: ToprakKars/breakfast-buffet-planner
+          path: work/breakfast-buffet-planner
+      - uses: actions/checkout@v4
+        with:
+          repository: ToprakKars/turkish-transcript-tools
+          path: work/turkish-transcript-tools
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright pillow
+      - run: python scripts/screenshots.py work
+      - name: Commit changed screenshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --cached --quiet || (git commit -m "Update screenshots" && git push)
