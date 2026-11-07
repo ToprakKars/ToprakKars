@@ -33,6 +33,23 @@ I build websites for small businesses and like turning ideas into clean, working
 
 Every project with logic has automated tests that run on GitHub Actions.
 
+<table>
+  <tr>
+    <td width="50%"><a href="https://toprakkars.github.io/barbershop-booking-app/"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/booking-time.jpg" alt="Barbershop booking app"></a><br><sub><b>Barbershop Booking App</b> – free slots are calculated, not hard-coded</sub></td>
+    <td width="50%"><a href="https://toprakkars.github.io/gate-0/"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/gate-0.jpg" alt="Gate 0 game"></a><br><sub><b>Gate 0</b> – choose-your-path story game with 5 endings</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/ToprakKars/breakfast-buffet-planner"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/breakfast-cli.png" alt="Breakfast buffet planner output"></a><br><sub><b>Breakfast Buffet Planner</b> – amounts, orders and a refill plan for the morning rush</sub></td>
+    <td width="50%"><a href="https://github.com/ToprakKars/turkish-transcript-tools"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/transcript-check.png" alt="Transcript tools output"></a><br><sub><b>Turkish Transcript Tools</b> – finds broken characters, bad timestamps and empty lines</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://toprakkars.github.io/cafe-website-concept/"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/cafe-hero.jpg" alt="Café website concept"></a><br><sub><b>Bohne &amp; Brot</b> – bilingual café landing page</sub></td>
+    <td width="50%"><a href="https://toprakkars.github.io"><img src="https://raw.githubusercontent.com/ToprakKars/ToprakKars/main/assets/portfolio.jpg" alt="Portfolio site"></a><br><sub><b>Portfolio</b> – toprakkars.github.io</sub></td>
+  </tr>
+</table>
+
+<sub>Screenshots are taken automatically by a <a href=".github/workflows/screenshots.yml">GitHub Actions workflow</a> that opens the live sites and runs the command-line tools.</sub>
+
 ### 🎯 Currently
 
 - Studying software engineering (3rd semester)
