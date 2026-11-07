@@ -22,11 +22,16 @@ I build websites for small businesses and like turning ideas into clean, working
 
 ### 📌 Projects
 
-| Project | What it is |
-|---|---|
-| [toprakkars.github.io](https://github.com/ToprakKars/toprakkars.github.io) | My personal portfolio site (HTML, CSS, JS, EN/DE) |
-| [cafe-website-concept](https://github.com/ToprakKars/cafe-website-concept) | Bilingual landing page concept for a minimalist Berlin café |
-| [turkish-transcript-tools](https://github.com/ToprakKars/turkish-transcript-tools) | Python CLI to clean and check Turkish transcripts |
+| Project | What it is | Live |
+|---|---|---|
+| [barbershop-booking-app](https://github.com/ToprakKars/barbershop-booking-app) | Booking app with real slot-availability logic, schedule view, tests and a Google Sheets backend | [demo](https://toprakkars.github.io/barbershop-booking-app/) |
+| [gate-0](https://github.com/ToprakKars/gate-0) | Interactive rule-horror story game – the story is checked automatically for dead ends (BFS) | [play](https://toprakkars.github.io/gate-0/) |
+| [breakfast-buffet-planner](https://github.com/ToprakKars/breakfast-buffet-planner) | Java CLI that plans hotel breakfast amounts, orders and refills (Maven, JUnit 5) | – |
+| [turkish-transcript-tools](https://github.com/ToprakKars/turkish-transcript-tools) | Python CLI to clean and check Turkish transcripts | – |
+| [cafe-website-concept](https://github.com/ToprakKars/cafe-website-concept) | Bilingual landing page concept for a minimalist Berlin café | [demo](https://toprakkars.github.io/cafe-website-concept/) |
+| [toprakkars.github.io](https://github.com/ToprakKars/toprakkars.github.io) | My personal portfolio site (HTML, CSS, JS, EN/DE) | [site](https://toprakkars.github.io) |
+
+Every project with logic has automated tests that run on GitHub Actions.
 
 ### 🎯 Currently
 
